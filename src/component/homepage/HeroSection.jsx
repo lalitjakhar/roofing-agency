@@ -5,7 +5,7 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 const Herosection=()=>{
     return(
 <> 
-<Box className="herosectioncontent w-100 relative" >
+<Box className="herosectioncontent w-100 relative" sx={{marginBottom:"50px"}}>
 
 
     <Container  maxwidth="xl">
@@ -16,12 +16,12 @@ const Herosection=()=>{
         </Box>
 
 
-        <Box className="w-full flex justify-between p-9 rounded-lg MuiBox-root align center" sx={{bgcolor:"#ffffff",}}>
+        <Box className="w-full flex justify-between p-9 rounded-lg MuiBox-root align center herotextfiled" sx={{bgcolor:"#ffffff",boxShadow:"3"}}>
             <Box>
-                <Typography sx={{fontsize:"17px" ,color:"#cb4154",fontFamily:"sans-serif", fontWeight:"800"}}>Quick Service Request</Typography>
+                <Typography sx={{fontSize:"17px" ,color:"#cb4154",fontFamily:"sans-serif", fontWeight:"800"}}>Quick Service Request</Typography>
                 <Typography>Send Inspection Request</Typography>
             </Box>
-            <Box className="flex gap-3 MuiBox-root">
+            <Box className="flex gap-3 herotextfiled">
             <Box sx={{ width:" 200px", maxWidth: '100%' }}>
                 <TextField fullWidth placeholder="Enter your full name" id="fullWidth" sx={{"& .MuiOutlinedInput-input":{
                     height:"14px",
