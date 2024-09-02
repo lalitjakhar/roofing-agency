@@ -36,7 +36,7 @@ const Navbar = () => {
         right="0"
         left="0"
         sx={{
-          backgroundColor: "transparent",
+         
           boxShadow:"none",
           bgcolor:"transparent"
         }}

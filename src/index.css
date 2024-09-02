@@ -2,10 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-
+*{
+    /* margin: 0; */
+    box-sizing: border-box;
+}
 .herosectioncontent{
     background-image: url(assets/herosection/hero-section-min.jpg);
-    height: 100vh;
+    height: 870px;
     background-size: cover;
     background-position: center;
+}
+@media only screen and (max-width:894px){
+   .MuiBox-root{
+    flex-direction: column !important;
+    align-items: center;
+   }
 }
