@@ -32,11 +32,13 @@ const Navbar = () => {
   return (
     <>
       <AppBar
-        position="static"
+        position="absolute"
+        right="0"
+        left="0"
         sx={{
           backgroundColor: "transparent",
           boxShadow:"none",
-          bgcolor:"GrayText"
+          bgcolor:"transparent"
         }}
       >
         <Toolbar sx={{borderBottom: "1px solid black",}}>
