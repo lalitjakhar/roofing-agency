@@ -9,7 +9,7 @@ const ContractorsSection = () => {
       <Container className="contractionsection" maxWidth="lg" sx={{ marginTop: "130px",  }}>
         <Box className="flex justify-between gap-9 contractionsection" >
           <Box className="contructionimag" sx={{position:"relative", width:"50%"}}>
-            <Box className="contructionimag2" sx={{width:"450px", height:"450px"}} >
+            <Box className="contructionimag1" sx={{width:"450px", height:"450px"}} >
               <img
                 src="src/assets/ContractorSection/conSection1.jpg"
                 alt="conctrionsection1"
@@ -68,6 +68,25 @@ const ContractorsSection = () => {
            <Button sx={{width:"152px", height:"47px", bgcolor:"#cb4154", color:"#fafafa"}}> Read more</Button>
 
           </Box>
+        </Box>
+        <Box className="contractorbox" sx={{width:"100%", height:"170px" ,display:"flex", justifyContent:"between", borderRadius:"30px" }}>
+            <Box className="contractorbox1" sx={{bgcolor:"#cb4154", width:"25%", display:"flex",flexDirection:"column", justifyContent:"center", alignItems:"center",}}>
+                <Typography sx={{fontSize:"30px", fontFamily:'sans-serif', fontWeight:"900", color:"#fafafa"}}>15k</Typography>
+                <Typography sx={{fontSize:"17px", fontFamily:"sans-serif" ,color:"#fafafa"}}>Years in Business </Typography>
+            </Box>
+            <Box className="contractorbox1" sx={{bgcolor:"#fafafa", width:"25%", display:"flex",flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
+                <Typography sx={{fontSize:"30px", fontFamily:'sans-serif', fontWeight:"900", color:"#131d3b"}}>1.5k</Typography>
+                <Typography sx={{fontSize:"17px", fontFamily:"sans-serif" ,color:"#171717"}}>Happy Clients</Typography>
+            </Box>
+            <Box className="contractorbox1" sx={{bgcolor:"#131d3b", width:"25%", display:"flex",flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
+                <Typography sx={{fontSize:"30px", fontFamily:'sans-serif', fontWeight:"900", color:"#fafafa"}}>2.5k</Typography>
+                <Typography sx={{fontSize:"17px", fontFamily:"sans-serif" ,color:"#fafafa"}}>Project Completed </Typography>
+            </Box>
+            <Box className="contractorbox1" sx={{bgcolor:"#b43041", width:"25%", display:"flex",flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
+                <Typography sx={{fontSize:"30px", fontFamily:'sans-serif', fontWeight:"900", color:"#fafafa"}}>150+</Typography>
+                <Typography x={{fontSize:"17px", fontFamily:"sans-serif" ,color:"#fafafa"}}>Trained Staff</Typography>
+            </Box>
+
         </Box>
       </Container>
     </Box>
