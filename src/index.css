@@ -1,3 +1,72 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    /* margin: 0; */
+    box-sizing: border-box;
+}
+.herosectioncontent{
+    background-image: url(assets/herosection/hero-section-min.jpg);
+    height: 870px;
+    background-size: cover;
+    background-position: center;
+}
+@media only screen and (max-width:894px){
+   .herotextfiled{
+    flex-direction: column !important;
+    align-items: center;
+    height: 100%;
+   }
+}
+@media only screen and (max-width:912px){
+     .contractionsection{
+        margin-top: 277px !important;
+        flex-direction: column !important;
+        width: 100%;
+        align-items: center;
+     }
+     .contructionimag{
+        width: 100% !important;
+        height: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        gap: 20px !important;
+      
+     }
+     .contructionimag2{
+        width: 100% !important;
+        height: 100% !important;
+        position: static !important;
+        top: 0;
+        
+     }
+     .contructionimag1{
+        width: 100% !important;
+        height: 100% !important;
+
+        margin-top: 100px !important;
+     }
+     .contractorbox{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 13px;
+     }
+     .contractorbox1{
+        width: 100% !important;
+     }
+}
+.contructionimag1:hover{
+    translate: 0px 20px   !important;
+    transition: 0.4s ease-in-out;
+    
+}
+.contructionimag2:hover{
+    translate: 0px 20px   !important;
+    transition: 0.4s ease-in-out;
+    
+}
+.contractorbox{
+    margin-top: 20px !important;
+}
