@@ -74,3 +74,10 @@
    background-size: cover;
    background-position: center;
 }
+.SolutionSectioncontent{
+   background-image: url(assets/solutionsection/quotes-min.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}

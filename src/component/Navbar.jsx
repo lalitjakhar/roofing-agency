@@ -129,7 +129,7 @@ const Navbar = () => {
                     }}
                   >
                     <li>
-                      <a href="#">Home</a>
+                      <a href="http://localhost:5175/">Home</a>
                     </li>
                     <li>
                       <a href="#">About</a>
