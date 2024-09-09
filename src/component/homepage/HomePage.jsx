@@ -1,5 +1,6 @@
 import ContractorsSection from "./ContractorsSection";
 import Herosection from "./HeroSection";
+import SixReasonsSection from "./SixReasonsSection";
 import SuperiorRoofingSection from "./SuperiorRoofingSection";
 
 const HomePage = () => {
@@ -9,6 +10,7 @@ const HomePage = () => {
 <Herosection />
 <ContractorsSection />
 <SuperiorRoofingSection />
+<SixReasonsSection />
 </>
 
   )

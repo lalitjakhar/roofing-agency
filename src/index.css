@@ -68,4 +68,9 @@
     transition: 0.4s ease-in-out;
     
 }
-
+.sixcontentbgimg{
+   background-image: url(assets/sixreasionssection/shape-3.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}

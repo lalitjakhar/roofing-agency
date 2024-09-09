@@ -24,6 +24,13 @@ const ContractorsSection = () => {
                 width={"100%"}
               />
             </Box>
+            <Box className="Contruction1" sx={{position:"absolute",top:"280px", left:"250px" ,width:"250px", height:"250px"}}>
+              <img
+                src="src/assets/ContractorSection/ConSection2.jpeg"
+                alt="constrionsection2"
+                width={"100%"}
+              />
+            </Box>
           </Box>
           <Box sx={{  Width: "50%" ,display:"flex", flexDirection:"column",gap:"30px" }}>
             <Typography
