@@ -56,7 +56,33 @@
       width: 100% !important;
       height: 100% !important;
    }
-   
+   .Footercontent{
+      flex-direction: column !important;
+      align-items: center;
+   }
+   .solutioncontent{
+      flex-direction: column !important;
+      align-items: center;
+   }
+   .solutioncontent1{
+      width: 100% !important;
+   }
+   .businesscontent{
+      flex-direction: column ;
+      align-items: center;
+   }
+   .businesscontent1{
+      width: 100% !important;
+   }
+   .nicestcontent{
+      flex-direction: column !important;
+   }
+   .nicestcontent1{
+      width: 100% !important;
+   }
+   .sixresoncontent{
+      width: 100% !important;
+   }
 }
 .contructionimag1:hover{
     translate: 0px 20px   !important;

@@ -38,7 +38,7 @@ const SixReasonsSection = () => {
          <Box sx={{display:"flex", flexWrap:"wrap", width:"100%", gap:"20px"}}>
 
 
-         <Box textAlign={"center"} width={"32%"} sx={{bgcolor:"#ffffff",padding:"30px", display:"flex",flexDirection:"column", gap:"10px"}}>
+         <Box className="sixresoncontent" textAlign={"center"} width={"32%"} sx={{bgcolor:"#ffffff",padding:"30px", display:"flex",flexDirection:"column", gap:"10px"}}>
             <Typography>
               <MilitaryTechIcon sx={{fontSize:"41px"}} />
             </Typography>
@@ -47,7 +47,7 @@ const SixReasonsSection = () => {
               Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit.
             </Typography>
           </Box>
-          <Box textAlign={"center"} width={"32%"} sx={{bgcolor:"#ffffff",padding:"30px",display:"flex",flexDirection:"column", gap:"10px" }}>
+          <Box className="sixresoncontent" textAlign={"center"} width={"32%"} sx={{bgcolor:"#ffffff",padding:"30px",display:"flex",flexDirection:"column", gap:"10px" }}>
             <Typography>
               <CheckCircleOutlineIcon sx={{fontSize:"41px"}} />
             </Typography>
@@ -56,7 +56,7 @@ const SixReasonsSection = () => {
               Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit.
             </Typography>
           </Box>
-          <Box textAlign={"center"} width={"32%"} sx={{bgcolor:"#ffffff" ,padding:"30px",display:"flex",flexDirection:"column", gap:"10px"}}>
+          <Box className="sixresoncontent" textAlign={"center"} width={"32%"} sx={{bgcolor:"#ffffff" ,padding:"30px",display:"flex",flexDirection:"column", gap:"10px"}}>
             <Typography>
               <PersonOutlineIcon sx={{fontSize:"51px"}} />
             </Typography>
@@ -65,7 +65,7 @@ const SixReasonsSection = () => {
               Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit.
             </Typography>
           </Box>
-          <Box textAlign={"center"} width={"32%"} sx={{bgcolor:"#ffffff" ,padding:"30px",display:"flex",flexDirection:"column", gap:"10px"}}>
+          <Box className="sixresoncontent" textAlign={"center"} width={"32%"} sx={{bgcolor:"#ffffff" ,padding:"30px",display:"flex",flexDirection:"column", gap:"10px"}}>
             <Typography>
               <AccessTimeIcon sx={{fontSize:"41px"}} />
             </Typography>
@@ -74,7 +74,7 @@ const SixReasonsSection = () => {
               Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit.
             </Typography>
           </Box>
-          <Box textAlign={"center"} width={"32%"} sx={{bgcolor:"#ffffff", padding:"30px",display:"flex",flexDirection:"column", gap:"10px"}}>
+          <Box className="sixresoncontent" textAlign={"center"} width={"32%"} sx={{bgcolor:"#ffffff", padding:"30px",display:"flex",flexDirection:"column", gap:"10px"}}>
             <Typography>
               <WifiCallingIcon sx={{fontSize:"41px"}} />
             </Typography>
@@ -83,7 +83,7 @@ const SixReasonsSection = () => {
               Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit.
             </Typography>
           </Box>
-          <Box textAlign={"center"} width={"32%"} sx={{bgcolor:"#ffffff",padding:"30px",display:"flex",flexDirection:"column", gap:"10px"}}>
+          <Box className="sixresoncontent" textAlign={"center"} width={"32%"} sx={{bgcolor:"#ffffff",padding:"30px",display:"flex",flexDirection:"column", gap:"10px"}}>
             <Typography>
               <Brightness5Icon  sx={{fontSize:"41px"}} />
             </Typography>

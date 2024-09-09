@@ -34,12 +34,13 @@ const SolutionSection = () => {
         <Box className="w-full" sx={{ bgcolor: "white" }}>
           <Container
             maxWidth="lg"
-            className="flex relative"
+            className="flex relative solutioncontent"
             sx={{ paddingTop: "70px" }}
           >
             <Box
               width={"50%"}
               sx={{ display: "flex", flexDirection: "column", gap: "10px" }}
+              className="solutioncontent1"
             >
               <Typography
                 sx={{
@@ -80,7 +81,7 @@ const SolutionSection = () => {
             </Box>
             <Box
               width={"50%"}
-              className="flex flex-col gap-4"
+              className="flex flex-col gap-4 solutioncontent1"
               sx={{
                 position: "relative",
                 bottom: "160px",

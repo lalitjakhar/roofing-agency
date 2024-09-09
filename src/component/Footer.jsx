@@ -8,7 +8,7 @@ const Footer=()=>{
     return(
         <>
         <Box className="w-full" bgcolor={"#131d3b"} >
-            <Container maxWidth="lg" className="flex justify-between" sx={{paddingBlock:"50px"}}>
+            <Container  maxWidth="lg" className="flex justify-between Footercontent" sx={{paddingBlock:"50px"}}>
                 <Box>
                     <Typography sx={{fontSize:"24px", fontFamily:"sans-serif", fontWeight:"800", color:"#cb4154", marginBottom:"40px"}}>About</Typography>
                     <Typography sx={{color:"#ffffff", fontSize:"17px", fontFamily:"sans-serif", paddingBottom:"10px"}}>Cras ultricies ligula sed</Typography>
@@ -53,7 +53,7 @@ const Footer=()=>{
                 </Box>
             </Container>
             <hr />
-            <Container maxWidth="lg" className="flex justify-between py-5">
+            <Container maxWidth="lg" className="flex justify-between py-5 Footercontent">
                 <Typography sx={{fontSize:"17px", fontFamily:"sans-serif", color:"#ffffff"}}>Copyright © 2024 Roofing Agency</Typography>
                 <Typography sx={{fontSize:"17px", fontFamily:"sans-serif", color:"#ffffff"}}>Powered By Astra Theme.</Typography>
             </Container>
