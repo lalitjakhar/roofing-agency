@@ -24,7 +24,7 @@ const NicestthingsSection=()=>{
             </Box>
 
            <Box className="flex gap-7 " sx={{paddingBlock:"80px"}}>
-           <Box className="flex flex-col gap-y-4 p-6 shadow-2xl" width={"33%" }>
+           <Box className="flex flex-col gap-y-4 p-6" width={"33%" } sx={{boxShadow:"3"}}>
                 <Typography className="flex justify-center" >
                     <img  src="src/assets/nicestthingsection/testemonial-2-4.png" alt="" width={100} height={100} />
                 </Typography>
@@ -40,7 +40,7 @@ const NicestthingsSection=()=>{
                 <Typography className="text-center" sx={{fontSize:'17px', fontFamily:"sans-serif", color:"#171717"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</Typography>
             </Box>
 
-            <Box className="flex flex-col gap-y-4 p-6 shadow-2xl" width={"33%" }>
+            <Box className="flex flex-col gap-y-4 p-6 shadow-2xl" width={"33%" } sx={{boxShadow:"4"}}>
                 <Typography className="flex justify-center" >
                     <img  src="src/assets/nicestthingsection/testimonial-03-free-img-4.png" alt="" width={100} height={100} />
                 </Typography>
@@ -56,7 +56,7 @@ const NicestthingsSection=()=>{
                 <Typography className="text-center" sx={{fontSize:'17px', fontFamily:"sans-serif", color:"#171717"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</Typography>
             </Box>
 
-            <Box className="flex flex-col gap-y-4 p-6 shadow-2xl" width={"33%" }>
+            <Box className="flex flex-col gap-y-4 p-6 shadow-2xl" width={"33%" } sx={{boxShadow:"3"}}>
                 <Typography className="flex justify-center" >
                     <img  src="src/assets/nicestthingsection/testimonial-13-free-img-4.png" alt="" width={100} height={100} />
                 </Typography>
