@@ -125,3 +125,10 @@
    background-position: center;
    background-size: cover; */
 }
+.chooseussection{
+   background-image: url(assets/chooseussection/background_03.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
