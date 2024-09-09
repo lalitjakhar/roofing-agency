@@ -7,7 +7,7 @@ const ChooseUsSection=()=>{
     return(
         <>
        <Box className="chooseussection">
-       <Container maxWidth="lg" sx={{paddingBlock:"60px"}}>
+       <Container maxWidth="lg" sx={{paddingBlock:"120px"}}>
             <Typography   sx={{
               color: "#cb4154",
               fontSize: "17px",

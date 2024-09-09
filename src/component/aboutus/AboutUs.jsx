@@ -2,6 +2,7 @@ import AboutCompany from "./AboutCompany";
 import ChooseUsSection from "./ChooseUsSection";
 import FirstAbout from "./FirstAbout";
 import OurHistorySection from "./OurHistorySection";
+import OurPartners from "./OurPartners";
 
 const AboutUs=()=>{
     return(
@@ -10,6 +11,7 @@ const AboutUs=()=>{
         <AboutCompany />
         <OurHistorySection />
         <ChooseUsSection />
+        <OurPartners />
         </>
     )
 };
