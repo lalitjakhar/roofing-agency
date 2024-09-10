@@ -1,4 +1,3 @@
-
 import ContractorsSection from "./ContractorsSection";
 import Herosection from "./HeroSection";
 import SixReasonsSection from "./SixReasonsSection";
@@ -9,17 +8,15 @@ import SolutionSection from "./SolutionSection";
 
 const HomePage = () => {
   return (
-
-<>
-<Herosection />
-<ContractorsSection />
-<SuperiorRoofingSection />
-<SixReasonsSection />
-<BusinessSection />
-<NicestthingsSection />
-<SolutionSection />
-</>
-
-  )
+    <>
+      <Herosection />
+      <ContractorsSection />
+      <SuperiorRoofingSection />
+      <SixReasonsSection />
+      <BusinessSection />
+      <NicestthingsSection />
+      <SolutionSection />
+    </>
+  );
 };
 export default HomePage;
