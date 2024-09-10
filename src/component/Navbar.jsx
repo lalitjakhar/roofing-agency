@@ -129,13 +129,13 @@ const Navbar = () => {
                     }}
                   >
                     <li>
-                      <a href="http://localhost:5175/">Home</a>
+                      <a href="http://localhost:5173/">Home</a>
                     </li>
                     <li>
-                      <a href="http://localhost:5175/about-us">About</a>
+                      <a href="http://localhost:5173/about-us">About</a>
                     </li>
                     <li>
-                      <a href="#">Services</a>
+                      <a href="http://localhost:5173/servicespage">Services</a>
                     </li>
                     <li>
                       <a href="#">Project</a>
@@ -194,7 +194,7 @@ const Navbar = () => {
               <ListItem>
                 <ListItemText
                   primary={
-                    <a href="#" style={{ color: "#000" }}>
+                    <a href="http://localhost:5173/servicespage" style={{ color: "#000" }}>
                       Services
                     </a>
                   }
