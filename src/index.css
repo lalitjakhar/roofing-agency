@@ -94,6 +94,28 @@
   .Experience1 {
     width: 100% !important;
   }
+  .questionsectioncontent{
+   flex-direction: column;
+   align-items: center;
+  }
+  .questionsectionimg{
+   width: 100% !important;
+  display: contents;
+ 
+  }
+  .questionsectionimg1{
+   width: 100% !important;
+  }
+  .contactsection1{
+   width: 100% !important;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  
+  }
+  .contactsection{
+   flex-direction: column;
+  }
 }
 .contructionimag1:hover {
   translate: 0px 20px !important;
@@ -244,4 +266,8 @@
   background-image: url(src/assets/RoofInspectionSection/rood-inspection-min.jpg);
   background-position: center;
   background-size: cover;
+}
+.questionsectionimg:hover{
+   translate: 0px 10px !important;
+   transition: 0.4s ease-in-out;
 }
