@@ -140,7 +140,7 @@ const Navbar = () => {
                       <a href="http://localhost:5173/projectspage">Project</a>
                     </li>
                     <li>
-                      <a href="#">Contact Us</a>
+                      <a href="http://localhost:5173/contactus">Contact Us</a>
                     </li>
                   </ul>
                 </Box>

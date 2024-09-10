@@ -1,5 +1,6 @@
 import ContactSection from "./ContactSection";
 import ContactUsSection from "./ContactUsSection";
+import MapSection from "./MapSection";
 import QuestionSection from "./QuestionSection";
 
 const ContactUs=()=>{
@@ -8,6 +9,7 @@ const ContactUs=()=>{
         <ContactUsSection />
         <QuestionSection />
         <ContactSection />
+        <MapSection />
         </>
     )
 };
