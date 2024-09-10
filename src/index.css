@@ -83,17 +83,102 @@
   .sixresoncontent {
     width: 100% !important;
   }
-   .RoofInspectionSection1{
-      width: 100%;
-   }
-   .RoofInspectionSection2{
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-   }
-   .Experience1{
-      width: 100% !important;
-   }
+  .RoofInspectionSection1 {
+    width: 100%;
+  }
+  .RoofInspectionSection2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .Experience1 {
+    width: 100% !important;
+  }
+}
+.contructionimag1:hover {
+  translate: 0px 20px !important;
+  transition: 0.4s ease-in-out;
+}
+.contructionimag2:hover {
+  translate: 0px 20px !important;
+  transition: 0.4s ease-in-out;
+}
+.sixcontentbgimg {
+  background-image: url(assets/sixreasionssection/shape-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.SolutionSectioncontent {
+  background-image: url(assets/solutionsection/quotes-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.firstaboutcontent {
+  background-image: url(src/assets/firstabout/FirstAbout.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .Contruction {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .Contruction {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .contractorbox {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contractorbox1 {
+    width: 100% !important;
+  }
+  .Supriorcontent {
+    flex-direction: column;
+  }
+  .Aditionalroffing {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+  }
+  .Aditionalroffing1 {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .Footercontent {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .solutioncontent {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .solutioncontent1 {
+    width: 100% !important;
+  }
+  .businesscontent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .businesscontent1 {
+    width: 100% !important;
+  }
+  .nicestcontent {
+    flex-direction: column !important;
+  }
+  .nicestcontent1 {
+    width: 100% !important;
+  }
+  .sixresoncontent {
+    width: 100% !important;
+  }
 }
 .contructionimag1:hover {
   translate: 0px 20px !important;
@@ -145,8 +230,14 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-.RoofInspectionSection{
-   background-image: url(src/assets/RoofInspectionSection/rood-inspection-min.jpg);
-   background-position: center;
-   background-size:cover ;
+.servicescontent {
+  background-image: url(src/assets/firstabout/FirstAbout.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.RoofInspectionSection {
+  background-image: url(src/assets/RoofInspectionSection/rood-inspection-min.jpg);
+  background-position: center;
+  background-size: cover;
 }
