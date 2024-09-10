@@ -5,7 +5,9 @@ const OurHistorySection = () => {
   return (
     <>
       <Box className="w-full ourhistorycontent" sx={{ position: "relative" }}>
-        <Box sx={{ position: "absolute", top: "80px", zIndex: "0", opacity:"1" }}>
+        <Box
+          sx={{ position: "absolute", top: "80px", zIndex: "0", opacity: "1" }}
+        >
           <img
             src="src/assets/ourhistorysection/sketch-1.png"
             alt=""
