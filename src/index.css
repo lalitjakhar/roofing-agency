@@ -179,6 +179,10 @@
   .sixresoncontent {
     width: 100% !important;
   }
+  .nextproject1 {
+   width: 100% !important;
+   height: auto;
+  }
 }
 .contructionimag1:hover {
   translate: 0px 20px !important;
