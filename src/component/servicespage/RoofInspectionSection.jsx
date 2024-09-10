@@ -34,7 +34,7 @@ const RoofInspectionSection = () => {
 
             <Typography
               sx={{
-                fontSize: "38px",
+                fontSize: {xl:"38px",md:"38px",sm:"20px",xs:"10px"},
                 fontFamily: "sans-serif",
                 fontWeight: "700",
                 lineHeight: "2",
@@ -61,12 +61,13 @@ const RoofInspectionSection = () => {
                 {" "}
                 <input
                   type="text"
-                  width={"100%"}
+                 
                   style={{
                     height: "47px",
                     border: "1px solid #e9e9e9",
                     borderRadius: "5px",
                     bgcolor: "#fafafa",
+                    width:"100%"
                   }}
                 />
               </Box>
@@ -74,19 +75,20 @@ const RoofInspectionSection = () => {
                 {" "}
                 <input
                   type="number"
-                  width={"100%"}
+                 
                   style={{
                     height: "47px",
                     border: "1px solid #e9e9e9",
                     borderRadius: "5px",
                     bgcolor: "#fafafa",
+                    width:"100%"
                   }}
                 />
               </Box>
               <Box>
                 <Button
                   sx={{
-                    width: "160px",
+                    width: {xl:"160px",md:"160px",sm:"100%", xs:"100%"},
                     height: "47px",
                     bgcolor: "#cb4154",
                     color: "#ffffff",
