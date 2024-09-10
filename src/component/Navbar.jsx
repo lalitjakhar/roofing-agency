@@ -36,12 +36,11 @@ const Navbar = () => {
         right="0"
         left="0"
         sx={{
-         
-          boxShadow:"none",
-          bgcolor:"transparent"
+          boxShadow: "none",
+          bgcolor: "transparent",
         }}
       >
-        <Toolbar sx={{borderBottom: "1px solid black",}}>
+        <Toolbar sx={{ borderBottom: "1px solid black" }}>
           {isSmallScreen && (
             <Box>
               <Typography>
@@ -49,7 +48,7 @@ const Navbar = () => {
               </Typography>
             </Box>
           )}
-          <Box sx={{flexGrow: 1, }}>
+          <Box sx={{ flexGrow: 1 }}>
             <Container maxWidth="xl">
               <Toolbar>
                 <Box
@@ -194,7 +193,10 @@ const Navbar = () => {
               <ListItem>
                 <ListItemText
                   primary={
-                    <a href="http://localhost:5173/servicespage" style={{ color: "#000" }}>
+                    <a
+                      href="http://localhost:5173/servicespage"
+                      style={{ color: "#000" }}
+                    >
                       Services
                     </a>
                   }
