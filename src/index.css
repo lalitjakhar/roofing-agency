@@ -116,6 +116,15 @@
   .contactsection{
    flex-direction: column;
   }
+  .Contruction2{
+   display: block !important;
+}
+.Contruction1{
+   display: none !important;
+}
+
+
+
 }
 .contructionimag1:hover {
   translate: 0px 20px !important;
@@ -272,6 +281,12 @@
    transition: 0.4s ease-in-out;
 }
 
+.Contruction2{
+   display: none;
+}
+.Contruction1{
+   display: block;
+}
 
 
 

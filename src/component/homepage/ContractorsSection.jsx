@@ -18,7 +18,7 @@ const ContractorsSection = () => {
             sx={{ position: "relative", width: "50%" }}
           >
             <Box
-              className="Contruction1"
+              className="Contruction"
               sx={{ width: "450px", height: "450px" }}
             >
               <img
@@ -44,13 +44,13 @@ const ContractorsSection = () => {
               />
             </Box>
             <Box
-              className="Contruction1"
+              className="Contruction2"
               sx={{
-                position: "absolute",
-                top: "280px",
-                left: "250px",
-                width: "250px",
-                height: "250px",
+                // position: "absolute",
+                // top: "280px",
+                // left: "250px",
+                // width: "250px",
+                // height: "250px",
               }}
             >
               <img
