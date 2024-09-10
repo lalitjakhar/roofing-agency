@@ -3,7 +3,7 @@ import { Box, Container, Typography } from "@mui/material";
 const ExperienceSection = () => {
   return (
     <>
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" sx={{paddingBlock:"100px"}}>
         <Typography
           variant="h6"
           sx={{
@@ -12,6 +12,7 @@ const ExperienceSection = () => {
             fontFamily: "sans-serif",
             lineHeight: "1.25em",
             color: "#cb4154",
+            marginBottom:"20px"
           }}
         >
           {" "}
@@ -24,6 +25,7 @@ const ExperienceSection = () => {
             fontFamily: "sans-serif",
             fontWeight: "700",
             lineHeight: "1.3em",
+            marginBottom:"50px"
           }}
         >
           Trust the Experience
@@ -31,7 +33,7 @@ const ExperienceSection = () => {
 
         <Box className="flex gap-5 flex-wrap">
           <Box
-            className="flex flex-col items-center p-5   gap-8"
+            className="flex flex-col items-center p-5   gap-8 Experience1"
             sx={{
               width: "32%",
               border: "1px solid #e9e9e9",
@@ -74,7 +76,7 @@ const ExperienceSection = () => {
           </Box>
 
           <Box
-            className="flex flex-col items-center p-5   gap-8"
+            className="flex flex-col items-center p-5   gap-8 Experience1"
             sx={{
               width: "32%",
               border: "1px solid #e9e9e9",
@@ -117,7 +119,7 @@ const ExperienceSection = () => {
           </Box>
 
           <Box
-            className="flex flex-col items-center p-5   gap-8"
+            className="flex flex-col items-center p-5   gap-8 Experience1"
             sx={{
               width: "32%",
               border: "1px solid #e9e9e9",
@@ -160,7 +162,7 @@ const ExperienceSection = () => {
           </Box>
 
           <Box
-            className="flex flex-col items-center p-5   gap-8"
+            className="flex flex-col items-center p-5   gap-8 Experience1"
             sx={{
               width: "32%",
               border: "1px solid #e9e9e9",
@@ -203,7 +205,7 @@ const ExperienceSection = () => {
           </Box>
 
           <Box
-            className="flex flex-col items-center p-5   gap-8"
+            className="flex flex-col items-center p-5   gap-8 Experience1"
             sx={{
               width: "32%",
               border: "1px solid #e9e9e9",
@@ -246,7 +248,7 @@ const ExperienceSection = () => {
           </Box>
 
           <Box
-            className="flex flex-col items-center p-5   gap-8"
+            className="flex flex-col items-center p-5   gap-8 Experience1"
             sx={{
               width: "32%",
               border: "1px solid #e9e9e9",

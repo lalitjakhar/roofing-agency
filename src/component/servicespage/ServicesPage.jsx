@@ -1,4 +1,5 @@
 import ExperienceSection from "./ExperienceSection";
+import RoofInspectionSection from "./RoofInspectionSection";
 import ServicesSection from "./ServicesSection";
 
 const ServicesPage=()=>{
@@ -6,6 +7,7 @@ const ServicesPage=()=>{
         <>
         <ServicesSection />
         <ExperienceSection />
+        <RoofInspectionSection />
         </>
     )
 };

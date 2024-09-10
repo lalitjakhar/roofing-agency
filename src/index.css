@@ -83,6 +83,17 @@
    .sixresoncontent{
       width: 100% !important;
    }
+   .RoofInspectionSection1{
+      width: 100%;
+   }
+   .RoofInspectionSection2{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   }
+   .Experience1{
+      width: 100% !important;
+   }
 }
 .contructionimag1:hover{
     translate: 0px 20px   !important;
@@ -138,4 +149,9 @@
    background-position: center;
    background-repeat: no-repeat;
    
+}
+.RoofInspectionSection{
+   background-image: url(src/assets/RoofInspectionSection/rood-inspection-min.jpg);
+   background-position: center;
+   background-size:cover ;
 }
