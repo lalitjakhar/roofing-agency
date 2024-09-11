@@ -35,9 +35,9 @@ const ChooseUsSection = () => {
             Reason For Choosing Us
           </Typography>
 
-          <Box className="flex justify-between gap-7">
+          <Box className="flex justify-between gap-7 choosussection">
             <Box
-              className="flex flex-col gap-5"
+              className="flex flex-col gap-5 choosussection1"
               sx={{ width: "33%", boxShadow: "3", paddingBlock: "50px" }}
             >
               <Typography textAlign={"center"}>
@@ -67,7 +67,7 @@ const ChooseUsSection = () => {
               </Typography>
             </Box>
             <Box
-              className="flex flex-col gap-5"
+              className="flex flex-col gap-5 choosussection1"
               sx={{ width: "33%", boxShadow: "3", paddingBlock: "50px" }}
             >
               <Typography textAlign={"center"}>
@@ -97,7 +97,7 @@ const ChooseUsSection = () => {
               </Typography>
             </Box>
             <Box
-              className="flex flex-col gap-5"
+              className="flex flex-col gap-5  choosussection1"
               sx={{ width: "33%", boxShadow: "3", paddingBlock: "50px" }}
             >
               <Typography textAlign={"center"}>

@@ -5,7 +5,7 @@ const AboutCompany = () => {
     <>
       <Container
         maxWidth="lg"
-        className="flex gap-6 "
+        className="flex gap-6 aboutcompanysection "
         sx={{ paddingBlock: "80px" }}
       >
         <Box>
